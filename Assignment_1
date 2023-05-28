@@ -1,0 +1,33 @@
+1) values : 'hello', -87.8, 6
+expressions : *, -, /, +
+
+2) String : String is a data type and it can hold any value mentioned within single or double quotes.
+Variable : A variable is used to store value/ reference of any particular data type/class.
+
+3) Int : Int in python is to represent non-decimal numbers with base 10 and could be In most implementations of Python, an int typically uses either 32 bits or 64 bits of memory, depending on the platform. 
+However, it's important to note that Python handles integers of any size dynamically, meaning it automatically adjusts the memory allocation as needed to accommodate larger integer values.
+ 
+String : String in python is can store any kind of value and is stored in between single or double quotes. In Python, strings are Unicode-based, and each character in a string is represented by one or more bytes, 
+depending on the encoding. The most commonly used encoding is UTF-8, where characters can be represented using variable-length byte sequences.
+
+Bool : This data type is to have values such as True or False. And is also one of the primitive data type.Usually, 'True' is represented as '1' and 'False' is representef as '0'.
+As a result, the size of bool object is also as same as int object.
+
+4) An expression is usually made up of, one or more variable, constants and arithmetic/logical operator. Normally, expressions are a piece of code which produces a value when excecuted.
+Eg. a+b, 5+3,  etc
+
+5) An expression is a piece of code that produces a value when executed. It can consist of variables, literals, operators, function calls, and other expressions combined in various ways. Eg., 5+3, 6//2 etc.
+Meanwhile, Statements does not produce any value but, a complete line of code which performs certain action/ particular operation. Eg., sum+=arr[i] etc.
+
+6) 22, since baccon is not yet assigned to the baccon again after adding a unit with it.
+
+7.1) "spamspamspam"
+7.2) "spamspamspam"
+
+8) A variable name can never start with a number in python, but can start with any character irrespective of being it in caps/small.
+
+9) integerInput = int(input())
+floatInput = float(input())
+stringInput = input()
+
+10) Yes, string concatenation can't be done with integer values within it. You can concatenate if you modify the code like this., "I have eaten" + "99" + "burritos.";
