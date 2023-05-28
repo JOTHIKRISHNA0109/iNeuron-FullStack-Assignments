@@ -1,0 +1,61 @@
+1) The 2 different values of Bool data type is here, True or False. 
+We write them like, isAlphabet = True etc.
+
+2) The three types of boolean operators are i) Logical AND(and), ii) Logical OR(or) iii) Logical NOT(not)
+
+3) Logical Operations:
+Logical AND:
+Operand1        Operand2        Result
+True             True            True
+True             False           False
+False            True            False
+False            False           False
+
+Logical OR:
+Operand1        Operand2        Result
+True             True            True
+True             False           True
+False            True            True
+False            False           False
+
+Logical NOT:
+Operand1        Result
+True             False           
+False            True
+
+4) False, False, True, False, False, True
+
+5) <, >, <=, >=, ==, !=
+
+6) Equal to(==) operator is used in logical comparison and returns a boolean value always. Whereas, assignment(=) operator is used to assign a value/experession to a variable. 
+Eg.,
+a = 5 #assignment
+b = 6 #assignment
+a == b #equal to returning False
+
+7) Excecution of the code will return "hamspamspam" and the blocks here are if continued with another if and then else.
+
+8) The code is here:
+if spam == 1:
+  print("Hello")
+elif spam == 2:
+  print("Howdy")
+else:
+  print("Greetings!")
+  
+9) Cntrl+C
+
+10) Break terminates the loop which is running and continue statement passes the particular iteration to the next iteration.
+
+11) All are same and all of them return same list of range values.
+
+12) For Loop:
+for i in range(1,11):
+  print(i)
+While Loop:
+i=1
+while(i<=10):
+  print(i)
+  i+=1
+
+13) spam.bacon()
