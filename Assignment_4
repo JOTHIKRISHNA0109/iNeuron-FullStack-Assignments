@@ -1,0 +1,43 @@
+1) [] is an empty list.
+
+2) spam[2] = 'hello'
+
+3) 'd'
+
+4) 'd'
+
+5) ['a','b']
+
+6) 1
+
+7) [3.14, 'cat', 11, 'cat' True, 99]
+
+8) [3.14, 11, 'cat' True, 99]
+
+9) The list concatination operator is '+'. This concatenates the two or more lists. For example,
+[1,2,3]+[4,5] => [1,2,3,4,5]
+The list replecation operator is '*'. This multiplies the the list into the number of given times. For example,
+[1,2,3]*3 => [1,2,3,1,2,3,1,2,3]
+
+10) .append() method add the given element to the last index of the list whereas .insert() method inserts the value in the given index of the list.
+
+11) .remove() => This method removes the given element in the argument from the list.
+.pop() => This method removes the value in the last index of a list.
+
+12)i)They both can be accessed using index.
+ii) They both can be iterated in the same way.
+iii) They both are sequenced and has length.
+
+13) Tuples enclosed within () are immutable and lists enclosed within [] are mutable.
+
+14) (42)
+
+15) type() method can help us to do that.
+
+16) They contain references of the list values.
+
+17.1) copy.copy()
+This copies the reference of the original object and therefore, any change in the original object can reflect in the copied object as well.
+17.2) copy.deepcopy()
+This method creates a new reference and assigns the value of orginal refercence to this new reference. Therefore, both the references becomes independent of each other and
+modifying one does not affect the other.
