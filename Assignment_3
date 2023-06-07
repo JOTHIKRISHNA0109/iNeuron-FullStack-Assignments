@@ -1,0 +1,30 @@
+1) Functions helps in reusablity of code that you need now write the same piece of code that does the same functionality. 
+
+2) The code in fuction runs when it is called. We can call the function like this functionName().
+
+3) def functionName(): We can also add arguments if required.
+
+4) Function includes declaration and definition of function and function call is when the code inside the particular function runs.
+
+5.1) Whenever a function is called, a function scope is created. It includes variables and objects defined within the function. The function scope is local to the function and is destroyed once the function execution completes.
+
+5.2) Local scopes are created within functions or other nested blocks, such as loops or conditional statements. Each time a function or block is executed, a new local scope is created, and any variables defined within that scope are accessible only within that scope.
+
+6) When a function call returns in Python, the local scope associated with that function is destroyed, and the variables within that scope cease to exist. This process is known as variable cleanup or deallocation.
+
+7) Function can return a value of any data type like int, bool or even void. This value can be assigned to a function call which is assigned to variable. And yes, expression can also have a return value.
+
+8) None
+
+9) Using the keyword 'global'.
+
+10) NoneType
+
+11) This sentence imports the module called areallyourpetsnamederic to your code.
+
+12) spam.bacon()
+
+13) You can use try-exception concept to avoid crashing if it encounters an error.
+
+14) Try clause means the actual trying (i.e.,) it tries to excecute the code inside the try block and if any error occurs there, the code inside except block gets excecuted. There can exists multiple except blocks with corresponding errors.
+We can even specify the type of error in exception like, which exception block needs to get called when a particular error is thrown by try block.
