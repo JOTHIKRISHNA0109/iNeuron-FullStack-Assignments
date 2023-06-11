@@ -1,0 +1,16 @@
+1) {}
+
+2) dictionary['foo'] = 32
+
+3) Dictionary is a linear sequence consisting of elements which seem to be 'key value pair' and meanwhile, list is a sequence that consists of linear structure of hetrogenous elements.
+
+4) Error: Key not found
+
+5) Both returns the same value on checking wheather key is present in the dictionary or not but the way they operate is different. 'cat' in keys checks weather, 'cat' is present as a key in dictionary, whereas 'cat' in spam.keys() also checks the same but it first create a view object of all keys of that dictionary.
+
+6) 'cat' in spam checks if 'cat' is a key in the dictionary spam, meanwhile 'cat' in spam.values() checks if 'cat' is a value in the dictionary spam irrespective of its key.
+
+7) spam.setdefault('color', 'black')
+
+8) import pprint
+pprint.pprint(dictionary)
