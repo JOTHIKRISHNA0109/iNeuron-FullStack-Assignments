@@ -1,0 +1,38 @@
+1) 
+firstVar = int(input())
+secondVar = int(input())
+add = firstVar+secondVar
+sub = abs(firstVar-secondVar)
+mul = firstVar*secondVar
+div = firstVar//secondVar
+
+print('First variable is {0} & second variable is {1}.'.format(firstVar, secondVar))
+print('Addition: {0} + {1} = {2}'.format(firstVar, secondVar))
+print('Subraction: {0} + {1} = {2}'.format(firstVar, secondVar))
+print('Multiplication: {0} + {1} = {2}'.format(firstVar, secondVar))
+print('Division: {0} + {1} = {2}'.format(firstVar, secondVar))
+
+
+2)i) / : The '/' operator performs regular division and returns the result as a floating-point number (float) or a decimal. Eg: 7/2 = 3.5
+// : The '//' operator performs floor division, also known as integer division. It returns the largest integer less than or equal to the result of the division. Eg.: 7//2 = 3 
+ii) ** : Exponential operator for example: 2**3 = 8 => 2*2*2
+^ : The '^' operator is not used for exponentiation in Python. 10 ^ 6 will return 12, as the binary representation of 10 is 1010 and the binary representation of 6 is 0110. Performing bitwise XOR between them gives 1100, which is 12 in decimal.
+
+3) and, or and not operator are the logical operators in python.
+
+4.1) The right shift operator (>>) shifts the bits of a number to the right by a specified number of positions.
+Each shift to the right effectively divides the number by 2 (integer division), discarding the rightmost bits and adding zeroes from the left.
+Example: x >> y shifts the bits of x to the right by y positions.
+4.2) The left shift operator (<<) shifts the bits of a number to the left by a specified number of positions.
+Each shift to the left effectively multiplies the number by 2, adding zeroes on the right.
+Example: x << y shifts the bits of x to the left by y positions.
+
+5) 
+arr = []
+for i in range(15):
+    num = int(input())
+    arr.append(num)
+if 10 in arr:
+    print("Yes")
+else:
+    print("No")
