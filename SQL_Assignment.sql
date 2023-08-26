@@ -1,5 +1,5 @@
 -- 1) 
-select ID 
+select Distinct(ID) 
 from AITools 
 where technology in (DS,Tableu,Python,SQL);
 
