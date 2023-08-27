@@ -1,7 +1,10 @@
 -- 1) 
 select Distinct(ID) 
 from AITools 
-where technology in (DS,Tableu,Python,SQL);
+where technology = (select technology from AITools where technology='DS') AND
+(select technology from AITools where technology='Tableu') AND 
+(select technology from AITools where technology='Python') AND
+(select technology from AITools where technology='SQL');
 
 
 -- 2)
